@@ -1,0 +1,87 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jul 27 22:59:32 2024
+
+@author: dell
+"""
+
+import streamlit as st
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+
+# 1. Title and Subheader
+st.title("Data Analysis")
+st.subheader("Data analysis using python and streamlit")
+
+# 2. Upload Dataset
+upload = st.file_uploader("Upload your data set (CSV formate)")
+if upload is not None:
+    data = pd.read_csv(upload)
+
+# 3. Show Dataset
+if upload is not None:
+    if st.checkbox("Preview Dataset")    :
+        if st.button("Head"):
+            st.write(data.head())
+        if st.button("Tail"):
+            st.write(data.tail())
+    
+# 4. Check datatype of each column
+if upload is not None:
+    if st.checkbox("Datatype of each column"):
+        st.text("Datatypes")
+        st.write(data.dtypes)
+
+# 5. Find shape of our dataset
+if upload is not None:
+    data_shape = st.radio("What dimension do you want to check ?", ('Rows','Columns'))
+    
+    if data_shape == 'Rows':
+        st.text("Number of rows")
+        st.write(data.shape[0])
+    if data_shape == 'Columns':
+        st.text("Number of Columns")
+        st.write(data.shape[1])    
+    
+# 6. Find null values in the dataset
+if upload is not None:
+    test = data.isnull().values.any()
+    if test == True:
+        if st.checkbox("Null values in the dataset"):
+            fig, ax = plt.subplots()
+            sns.heatmap(data.isnull(), ax=ax)
+            st.pyplot(fig)            
+            
+    else:
+        st.success("Congratulation!!!, No missing values")
+        
+            
+# 7. Find duplicate values in the dataset
+if upload is not None:
+    test = data.duplicated().any()
+    if test == True:
+        st.warning("This dataset contains some duplicate values")
+        dup = st.selectbox("Do you want to remove duplicate values ?", \
+                           ("Select one", "Yes", "No"))
+        if dup == "Yes":
+            data = data.drop_duplicates()
+            st.text("Duplicate values are removed")
+        if dup == "No":
+            st.text("Ok No Problem")
+            
+# 8. Get overall statistics  
+if upload is not None:
+    if st.checkbox("Summary of the dataset"):
+        st.write(data.describe())
+        
+# 9. About section
+if st.button("About App"):
+    st.text("Built with streamli")
+    st.text("Thanks to streamlit")
+    
+# 10. End
+if st.checkbox("END"):
+    st.success("Thanks for using Streamlit")
+    
+        

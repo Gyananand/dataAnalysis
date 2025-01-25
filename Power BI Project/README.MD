@@ -59,8 +59,8 @@ The final interactive dashboard was created using Power BI and is published onli
 If you have any questions about the project or would like to collaborate, feel free to reach out:
 
 **Name**: Gyan Anand  
-**Email**: [YourEmail@example.com]  
-**LinkedIn**: [YourLinkedInProfile](#)  
+**Email**: [gyananand31@gmail.com]  
+**LinkedIn**: [https://www.linkedin.com/in/gyan-anand/](#)  
 
 ---
 

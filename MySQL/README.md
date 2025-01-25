@@ -42,3 +42,12 @@ CREATE TABLE layoffs_staging LIKE layoffs;
 
 INSERT INTO layoffs_staging
 SELECT * FROM layoffs;
+
+
+WITH duplicate_cte AS (
+    SELECT *,
+           ROW_NUMBER() OVER (PARTITION BY company, industry, location, total_laid_off, `date`) AS row_num
+    FROM layoffs_staging
+)
+DELETE FROM layoffs_staging2
+WHERE row_num > 1;

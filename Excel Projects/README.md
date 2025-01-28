@@ -10,6 +10,8 @@ For a more detailed explanation of this report, please watch the video here:
 
 [Watch the Video](https://www.linkedin.com/posts/gyan-anand_excelproject-dataanalysis-dashboarddesign-activity-7286420302002036737-VEUc?utm_source=share&utm_medium=member_desktop)
 
+---
+
 ## Key Features
 - **Orders vs Sales**: Monthly analysis of sales amount and order counts.
 - **Top 5 Sales Regions**: Highlights top-performing states by sales volume.

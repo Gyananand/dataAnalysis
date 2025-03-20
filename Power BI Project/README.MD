@@ -60,7 +60,7 @@ If you have any questions about the project or would like to collaborate, feel f
 
 **Name**: Gyan Anand  
 **Email**: [gyananand31@gmail.com]  
-**LinkedIn**: [https://www.linkedin.com/in/gyan-anand/](#)  
+**LinkedIn**: [Linkedin](https://www.linkedin.com/in/gyan-anand/)  
 
 ---
 

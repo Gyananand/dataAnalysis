@@ -1,4 +1,4 @@
-# Data Professional Survey Breakdown
+# Data Professional Survey Breakdown 
 
 This project presents a detailed analysis of survey data collected from data professionals across the globe. The Power BI dashboard provides insights into their salaries, work-life balance, favorite programming languages, and more.
 

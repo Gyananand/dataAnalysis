@@ -2,7 +2,7 @@
 
 ## Overview
 This dashboard provides a comprehensive analysis of Vrinda Store's sales performance, customer demographics, and order trends. The insights are drawn from various dimensions, including time, regions, platforms, and customer attributes.
-
+ 
 ---
 
 ## Video Presentation

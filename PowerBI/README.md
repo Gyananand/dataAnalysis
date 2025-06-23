@@ -15,8 +15,6 @@ The final interactive dashboard was created using Power BI and is published onli
 
 ![image](https://github.com/user-attachments/assets/a5fc25fe-48bb-4be0-a0d9-a1ff2f78027e)
 
----
-
 ## Key Features
 
 - **Average Salary by Job Title**: Highlights the average salary for roles such as Data Scientist, Data Engineer, Data Analyst, etc.

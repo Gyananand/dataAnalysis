@@ -13,6 +13,8 @@ The objective of this project was to analyze and visualize survey data from data
 
 The final interactive dashboard was created using Power BI and is published online for public viewing.
 
+![image](https://github.com/user-attachments/assets/a5fc25fe-48bb-4be0-a0d9-a1ff2f78027e)
+
 ---
 
 ## Key Features

@@ -5,6 +5,8 @@ This dashboard provides a comprehensive analysis of Vrinda Store's sales perform
  
 ---
 
+![image](https://github.com/user-attachments/assets/93a04ceb-2b6e-4b7e-a692-c2b05f745b3f)
+
 ## Video Presentation
 For a more detailed explanation of this report, please watch the video here:
 

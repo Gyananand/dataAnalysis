@@ -8,7 +8,7 @@ This dashboard provides a comprehensive analysis of Vrinda Store's sales perform
 ## Video Presentation
 For a more detailed explanation of this report, please watch the video here:
 
-[Watch the Video](https://www.linkedin.com/posts/gyan-anand_excelproject-dataanalysis-dashboarddesign-activity-7286420302002036737-VEUc?utm_source=share&utm_medium=member_desktop)
+[Watch the Video](https://www.linkedin.com/feed/update/urn:li:activity:7347860468490780673/)
 
 ---
 
